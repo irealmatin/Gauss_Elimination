@@ -88,3 +88,9 @@ solver = LinearSystemSolver(a_matrix, b_vector)
 solution = solver.solve()
 print("Here are your answers:")
 print(solution)
+
+
+
+# compare with Nmpy solver
+# solver_numpy = np.linalg.solve(a_matrix,b_vector)
+# print(solver_numpy)
